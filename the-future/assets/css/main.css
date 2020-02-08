@@ -2907,7 +2907,7 @@ input, select, textarea {
 
 		.split > :nth-child(2n - 1) {
 			padding-right: 2.5em;
-			border-right: solid 1px rgba(255, 255, 255, 0.15);
+
 		}
 
 		.split > :nth-child(2n) {
@@ -3256,7 +3256,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: rgb(94, 66, 170);
 		}
 
 		.wrapper.style3-alt {
@@ -3913,3 +3913,16 @@ input, select, textarea {
 		margin-left:15px;
 		margin-top:10px;
 	}
+	.parent-skills{
+		display:flex;
+		flex-direction: column;
+	}
+	
+	.specfics-parent{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+
+	
